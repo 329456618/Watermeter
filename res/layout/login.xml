@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/jb" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/edit_username"
+            style="@style/loginTheme"
+            android:background="@drawable/userimg"
+            android:hint="输入用户"
+            android:maxLines="1"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/edit_userpwd"
+            style="@style/loginTheme"
+            android:background="@drawable/pwdimg"
+            android:hint="输入密码"
+            android:maxLines="1"
+            android:paddingRight="4dip"
+            android:password="true"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/but_usersub"
+            style="@style/loginTheme"
+            android:background="@drawable/but_orange"
+            android:gravity="center"
+            android:paddingLeft="0dip"
+            android:text="登录系统"
+            android:textColor="#FFF" />
+
+        <Button
+            android:id="@+id/but_exit"
+            style="@style/loginTheme"
+            android:background="@drawable/but_blue"
+            android:gravity="center"
+            android:paddingLeft="0dip"
+            android:text="退出系统"
+            android:textColor="#FFF" />
+    </LinearLayout>
+
+</RelativeLayout>
